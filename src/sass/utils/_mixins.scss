@@ -1,0 +1,24 @@
+@import "mixins_private";
+
+$max-iterations: 8;
+$cardinals_map: ("":"",
+    "b": "-bottom",
+    "l": "-left",
+    "r": "-right",
+    "t": "-top");
+
+@mixin create-utility-with-iterations($property, $class, $max-iterations: $max-iterations) {
+
+    @each $key,
+    $value in $cardinals_map {
+        @for $i from 0 through $max-iterations {
+            $css-class: #{$class}#{$key}-#{$i};
+            $css-property: #{$property}#{$value};
+            $css-value: #{$i * $size_increase}#{$size_unit};
+
+            // from ./_mixins_private
+            @include private-create-utility-property ($css-class, $css-property, $css-value);
+        }
+    }
+
+}
