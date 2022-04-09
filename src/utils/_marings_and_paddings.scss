@@ -1,0 +1,5 @@
+// margins
+@include create-utility-with-iterations('margin', 'm', $max-iterations);
+// paddings
+@include create-utility-with-iterations('padding', 'p', $max-iterations);
+// Without Iteractions

@@ -1,0 +1,42 @@
+// flex directions
+// .flex-??? {
+//     flex-direction: column;
+//     flex-direction:row;
+//     flex-direction:column-reverse;
+//     flex-direction:row-reverse;
+// }
+$flex-directions: ('column',
+    'row',
+    'column-reverse',
+    'row-reverse',
+);
+
+@each $flex-direction in $flex-directions {
+    $class: flex-#{$flex-direction};
+    $property: 'flex-direction';
+    $value: $flex-direction;
+    @include private-create-utility-property ($class, $property, $value);
+}
+
+
+
+// flex align-items 
+// .align- {
+//     align-items:baseline;
+//     align-items:center;
+//     align-items:flex-end;
+//     align-items:flex-start;
+// }
+
+$flex-align-contents: ('baseline',
+    'center',
+    'flex-end',
+    'flex-start',
+);
+
+@each $flex-align-content in $flex-align-contents {
+    $class: align-#{$flex-align-content};
+    $property: 'align-items';
+    $value: $flex-align-content;
+    @include private-create-utility-property ($class, $property, $value);
+}

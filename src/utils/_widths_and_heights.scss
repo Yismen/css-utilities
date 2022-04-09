@@ -1,0 +1,76 @@
+// width 
+// .w- {
+//     width: 25%;
+//     width: 55%;
+//     width: 75%;
+//     width: 100%;
+// }
+
+$widths-contents: ('25': '25%',
+    '33': '33.33%',
+    '50': '50%',
+    '66': '66.66%',
+    '75': '75%',
+    '100': '100%',
+);
+
+@each $width,
+$width-size in $widths-contents {
+    $class: w-#{$width};
+    $property: 'width';
+    $value: $width-size;
+    @include private-create-utility-property ($class, $property, $value);
+}
+
+// height 
+// .h- {
+//     height: 25%;
+//     height: 55%;
+//     height: 75%;
+//     height: 100%;
+// }
+
+$heights-contents: ('25': '25%',
+    '33': '33.33%',
+    '50': '50%',
+    '66': '66.66%',
+    '75': '75%',
+    '100': '100%',
+);
+
+@each $height,
+$height-size in $heights-contents {
+    $class: h-#{$height};
+    $property: 'height';
+    $value: $height-size;
+    @include private-create-utility-property ($class, $property, $value);
+}
+
+// vhs 
+// .w- {
+//     vh: 25%;
+//     vh: 55%;
+//     vh: 75%;
+//     vh: 100%;
+// }
+$view_height-contents: ('25': '25%',
+    '33': '33.33%',
+    '50': '50%',
+    '66': '66.66%',
+    '75': '75%',
+    '100': '100%',
+);
+
+@for $i from 1 to 10 {
+    $increment: $i*10;
+
+    $class: vh-#{$increment};
+    $property: 'height';
+    $value: #{$increment}vh;
+    @include private-create-utility-property ($class, $property, $value);
+
+    $class: font-weight-#{$increment * 10};
+    $property: 'font-weight';
+    $value: #{$increment * 10};
+    @include private-create-utility-property ($class, $property, $value);
+}

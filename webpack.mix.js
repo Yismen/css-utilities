@@ -1,3 +1,3 @@
 const mix = require('laravel-mix');
 
-mix.sass('src/sass/index.scss', 'build/utilities.css');
+mix.sass('src/_utilities.scss', 'build/utilities.css');

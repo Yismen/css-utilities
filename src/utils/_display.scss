@@ -1,0 +1,14 @@
+// display
+$display_list: ('flex',
+    'block',
+    'content',
+    'table',
+    'grid',
+);
+
+@each $display in $display_list {
+    $class: $display;
+    $property: 'display';
+    $value: $display;
+    @include private-create-utility-property ($class, $property, $value);
+}
