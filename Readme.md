@@ -4,7 +4,99 @@
 Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
 
 ### Installation
-  1. ```npm install git+https://github.com/Yismen/css-utilities.git --save-dev```
+- ```npm install git+https://github.com/Yismen/css-utilities.git --save-dev```
 ### Usage
-  1. Import with sass compiler
-     1. ```@import "~dainsys-css-utilities/dainsys-css-utilities";```
+- Imports:
+    - With a sass compiler: ```@import "~dainsys-css-utilities/build/css-utilities.min.css";```
+    - Or with webpack from ```node_modules/dainsys-css-utilities/src/_utilities.scss```
+### API:
+- Breakpoints
+  - Eeach class will have a prefix according to a min-width media query.
+    - `sm:` : `@media (min-width: 750px)`;
+    - `md:` : `@media (min-width: 992px)`;
+    - `lg:` : `@media (min-width: 1200px)`;
+    - `xl:` : `@media (min-width: 1400px)`;
+- Display classes
+    - `.flex` : {display: flex;}
+    - `.block` : {display: block;}
+    - `.content` : {display: content;}
+    - `.table` : {display: table;}
+    - `.grid` : {display: grid;}
+- Flex properties
+    - Flex Directions
+        - . `.flex-direction-column` : {flex-direction: column;}
+        - . `.flex-direction-row` : {flex-direction: row;}
+        - . `.flex-direction-column-reverse` : {flex-direction: column-reverse;}
+        - . `.flex-direction-row-reverse` : {flex-direction: row-reverse;}
+    - Align Items
+        - . `.align-items-baseline` : {align-items: baseline;}
+        - . `.align-items-center` : {align-items: center;}
+        - . `.align-items-flex-end` : {align-items: flex-end;}
+        - . `.align-items-flex-start` : {align-items: flex-start;}
+- Margins
+    - Maring All Arounds
+        -`.m-0` : {margin: 0rem;}
+        -`.m-1` : {margin: 0.25rem;}
+        -`.m-2` : {margin: 0.5rem;}
+        -...
+        -`.m-16` : {margin: 4rem;}
+    - Margin Left
+        - `.ml-0` : {margin-left: 0rem;}
+        - `.ml-1` : {margin-left: 0.25rem;}
+        - `.ml-2` : {margin-left: 0.5rem;}
+        -  ...
+        -  `.mr-16` : {margin-right: 4rem;
+    - argin Right
+        - mr-0` : {margin-right: 0rem;}
+        -  `.mr-1` : {margin-right: 0.25rem;}
+        -  `.mr-2` : {margin-right: 0.5rem;}
+        -  ...
+        -  `.mr-16` : {margin-right: 4rem;}
+    - argin Top
+        -  `.mt-0` : {margin-top: 0rem;}
+        -  `.mt-1` : {margin-top: 0.25rem;}
+        -  `.mt-2` : {margin-top: 0.5rem;}
+        -  ...
+        -  `.mt-16` : {margin-top: 4rem;}
+    - Margin Bottom
+        -  `.mb-0` : {margin-bottom: 0rem;}
+        -  `.mb-1` : {margin-bottom: 0.25rem;}
+        -  `.mb-2` : {margin-bottom: 0.5rem;}
+        -  ...
+        - `.mb-16` : {margin-bottom: 4rem;}
+    - Margin Horizontal
+        -  `.mx-0` : {margin-left: 0rem; margin-right: 0rem;}
+        -  `.mx-1` : {margin-left: 0.25rem; margin-right: 0.25rem;}
+        -  `.mx-2` : {margin-left: 0.5rem; margin-right: 0.5rem;}
+        -  ...
+        -  `.mx-16` : {margin-left: 4rem; margin-right: 4rem;}
+    - Margin Vertical
+        -  `.my-0` : {margin-top: 0rem; margin-bottom: 0rem;}
+        -  `.my-1` : {margin-top: 0.25rem; margin-bottom: 0.25rem;}
+        -  `.my-2` : {margin-top: 0.5rem; margin-bottom: 0.5rem;}
+        -  ...
+        -  `.my-16` : {margin-top: 4rem; margin-bottom: 4rem;}
+- Paddings
+    - All margins, but starting with `p`
+- Widths
+    - `w-25` : {width: 25%;}
+    - `w-50` : {width: 50%;}
+    - `w-75` : {width: 75%;}
+    - `w-100` : {width: 100%;}
+- Heights
+    - `h-25` : {height: 25%;}
+    - `h-50` : {height: 50%;}
+    - `h-75` : {height: 75%;}
+    - `h-100` : {height: 100%;}
+- View Heights
+    - `vh-10` : {height: 10%;}
+    - `vh-20` : {height: 20%;}
+    - `vh-30` : {height: 30%;}
+    - ...
+    - `vh-100` : {height: 100%;}
+- Font Heights
+    - `fw-10` : {font-weight: 10%;}
+    - `fw-20` : {font-weight: 20%;}
+    - `fw-30` : {font-weight: 30%;}
+    - ...
+    - `fw-100` : {font-weight: 100%;}

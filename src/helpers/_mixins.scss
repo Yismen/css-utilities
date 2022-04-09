@@ -11,6 +11,7 @@ $cardinals_map: ("":"",
 
     @each $key,
     $value in $cardinals_map {
+
         @for $i from 0 through $max-iterations {
             $css-class: #{$class}#{$key}-#{$i};
             $css-property: #{$property}#{$value};
@@ -20,5 +21,7 @@ $cardinals_map: ("":"",
             @include private-create-utility-property ($css-class, $css-property, $css-value);
         }
     }
-
 }
+
+
+$axis_map: ('x': ('-left', '-right'), 'y': ('-top', '-botom'));
