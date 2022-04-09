@@ -1,5 +1,5 @@
 {
-  "name": "css-utilities",
+  "name": "dainsys-css-utilities",
   "version": "1.0.0",
   "description": "Css utilities classes, ideally to compliment bootstrap 3",
   "main": "index.js",
