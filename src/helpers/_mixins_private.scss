@@ -1,10 +1,9 @@
-$media_sizes_map: ("_":"",
-    "sm": "768px",
-    "md": "992px",
-    "lg": "1200px",
-    "xl": "1400px");
+@mixin private-create-utility-property($class, $property, $value) {
 
-@mixin name {}
+    @include private-return-utility-property ($class, $property, $value);
+
+    @include private-generate-media-queries($class, $property, $value);
+}
 
 @mixin private-return-utility-property ($css-class, $css-property, $css-value, $important: '') {
     .#{$css-class} {
@@ -12,21 +11,21 @@ $media_sizes_map: ("_":"",
     }
 }
 
-@mixin private-create-utility-property($class, $property, $value) {
+@mixin private-generate-media-queries($class, $property, $value) {
+    $media_sizes_map: ("sm": "768px",
+            "md": "992px",
+            "lg": "1200px",
+            "xl": "1400px");
 
     @each $media,
     $size in $media_sizes_map {
 
-        @if ($media=="_") {
-            @include private-return-utility-property ($class, $property, $value);
-        }
-
-        @else {
+        @media (min-width: #{$size}) {
             $media-class: #{$media}\:#{$class};
 
-            @media (min-width: #{$size}) {
-                @include private-return-utility-property ($media-class, $property, $value, '!important');
-            }
+            @include private-return-utility-property ($media-class, $property, $value, '!important');
         }
+
     }
+
 }
