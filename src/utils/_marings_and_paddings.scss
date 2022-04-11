@@ -12,7 +12,7 @@ $directions-map: ('':'',
     'b': '-bottom',
 );
 
-@for $i from 0 to 16 {
+@for $i from 0 through 16 {
 
     $property-value: #{($i * .25)}#{$size_unit};
 
