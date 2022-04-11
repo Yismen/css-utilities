@@ -1,0 +1,27 @@
+// visibility 
+// .visible- {
+//      visibility: visible;
+// }
+
+$class: visible;
+$property: 'visibility';
+$value: visible;
+@include private-create-utility-property ($class, $property, $value);
+
+// .hidden- {
+//      visibility: hidden;
+// }
+
+$class: hidden;
+$property: 'visibility';
+$value: hidden;
+@include private-create-utility-property ($class, $property, $value);
+
+// .hidden- {
+//      visibility: hidden;
+// }
+
+$class: collapse;
+$property: 'visibility';
+$value: collapse;
+@include private-create-utility-property ($class, $property, $value);
