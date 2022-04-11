@@ -7,8 +7,8 @@ $display_list: ('flex',
 );
 
 @each $display in $display_list {
-    $class: $display;
-    $property: 'display';
-    $value: $display;
-    @include private-create-utility-property ($class, $property, $value);
+    $css-class: $display;
+    $css-properties: ("display": $display);
+
+    @include create-utility-property ($css-class, $css-properties);
 }

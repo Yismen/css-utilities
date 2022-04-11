@@ -12,10 +12,9 @@ $flex-directions: ('column',
 );
 
 @each $flex-direction in $flex-directions {
-    $class: flex-#{$flex-direction};
-    $property: 'flex-direction';
-    $value: $flex-direction;
-    @include private-create-utility-property ($class, $property, $value);
+    $css-class: flex-#{$flex-direction};
+    $css-properties: ('flex-direction': $flex-direction);
+    @include create-utility-property ($css-class, $css-properties);
 }
 
 
@@ -35,8 +34,7 @@ $flex-align-contents: ('baseline',
 );
 
 @each $flex-align-content in $flex-align-contents {
-    $class: align-#{$flex-align-content};
-    $property: 'align-items';
-    $value: $flex-align-content;
-    @include private-create-utility-property ($class, $property, $value);
+    $css-class: align-#{$flex-align-content};
+    $css-properties: ('align-items': $flex-align-content);
+    @include create-utility-property ($css-class, $css-properties);
 }

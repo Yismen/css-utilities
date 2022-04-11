@@ -1,23 +1,22 @@
-// vhs 
-// .w- {
-//     vh: 10%;
-//     vh: 20%;
-//     vh: 30%;
-//     vh: 100%;
+//// .m- {
+//      margin: 10px;
 // }
+$letter-names-map: ('w': 'width',
+    'h': 'height',
+    'vh': 'height',
+    'fw': 'font-weight',
+);
 
-@for $i from 1 to 10 {
-    $increment: $i*10;
+@for $i from 1 through 10 {
 
-    // View Heights
-    $class: vh-#{$increment};
-    $property: 'height';
-    $value: #{$increment}vh;
-    @include private-create-utility-property ($class, $property, $value);
+    $incremental: ($i * 10);
+    $property-value: "#{$incremental}%";
 
-    // Font Wieghts
-    $class: fw-#{$increment * 10};
-    $property: 'font-weight';
-    $value: #{$increment * 10};
-    @include private-create-utility-property ($class, $property, $value);
+    @each $letter,
+    $name in $letter-names-map {
+
+        $css-class: #{$letter}-#{$incremental};
+        $css-properties: (#{$name}: $property-value);
+        @include create-utility-property ($css-class, $css-properties);
+    }
 }

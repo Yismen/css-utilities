@@ -1,5 +1,37 @@
-// margins
-@include create-utility-with-iterations('margin', 'm', $max-iterations);
-// paddings
-@include create-utility-with-iterations('padding', 'p', $max-iterations);
-// Without Iteractions
+// .m- {
+//      margin: 10px;
+// }
+$letter-names-map: ('m': 'margin',
+    'p': 'padding',
+);
+
+$directions-map: ('':'',
+    'l': '-left',
+    'r': '-right',
+    't': '-top',
+    'b': '-bottom',
+);
+
+@for $i from 0 to 16 {
+
+    $property-value: #{($i * .25)}#{$size_unit};
+
+    @each $letter,
+    $name in $letter-names-map {
+
+        @each $key,
+        $direction in $directions-map {
+            $css-class: #{$letter}#{$key}-#{$i};
+            $css-properties: (#{$name}#{$direction}: $property-value);
+            @include create-utility-property ($css-class, $css-properties);
+        }
+
+        $directions-list: ('x', 'y');
+
+        @each $direction in $directions-list {
+            $css-class: #{$letter}#{$direction}-#{$i};
+            $css-properties: (#{$name}-left: $property-value, #{$name}-right: $property-value);
+            @include create-utility-property ($css-class, $css-properties);
+        }
+    }
+}

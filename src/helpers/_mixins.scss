@@ -1,27 +1,30 @@
-@import "mixins_private";
+@mixin create-utility-property($css-class, $css-properties) {
 
-$max-iterations: 8;
-$cardinals_map: ("":"",
-    "b": "-bottom",
-    "l": "-left",
-    "r": "-right",
-    "t": "-top");
+    .#{$css-class} {
 
-@mixin create-utility-with-iterations($property, $class, $max-iterations: $max-iterations) {
+        @each $property,
+        $value in $css-properties {
+            #{$property}: #{$value};
+        }
+    }
 
-    @each $key,
-    $value in $cardinals_map {
+    // Generate Media Queries
+    $media_sizes_map: ("sm": "768px",
+        "md": "992px",
+        "lg": "1200px",
+        "xl": "1400px");
 
-        @for $i from 0 through $max-iterations {
-            $css-class: #{$class}#{$key}-#{$i};
-            $css-property: #{$property}#{$value};
-            $css-value: #{$i * $size_increase}#{$size_unit};
+    @each $media,
+    $size in $media_sizes_map {
 
-            // from ./_mixins_private
-            @include private-create-utility-property ($css-class, $css-property, $css-value);
+        @media (min-width: #{$size}) {
+            .#{$media}\:#{$css-class} {
+
+                @each $property,
+                $value in $css-properties {
+                    #{$property}: #{$value};
+                }
+            }
         }
     }
 }
-
-
-$axis_map: ('x': ('-left', '-right'), 'y': ('-top', '-botom'));

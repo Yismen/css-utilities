@@ -3,25 +3,22 @@
 //      visibility: visible;
 // }
 
-$class: visible;
-$property: 'visibility';
-$value: visible;
-@include private-create-utility-property ($class, $property, $value);
+$css-class: visible;
+$css-properties: ('visibility': visible);
+@include create-utility-property ($css-class, $css-properties);
 
 // .hidden- {
 //      visibility: hidden;
 // }
 
-$class: hidden;
-$property: 'visibility';
-$value: hidden;
-@include private-create-utility-property ($class, $property, $value);
+$css-class: hidden;
+$css-properties: ('visibility': hidden);
+@include create-utility-property ($css-class, $css-properties);
 
 // .hidden- {
-//      visibility: hidden;
+//      visibility: collapse;
 // }
 
-$class: collapse;
-$property: 'visibility';
-$value: collapse;
-@include private-create-utility-property ($class, $property, $value);
+$css-class: collapse;
+$css-properties: ('visibility': collapse);
+@include create-utility-property ($css-class, $css-properties);
