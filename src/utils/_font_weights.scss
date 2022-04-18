@@ -1,0 +1,20 @@
+@use "sass:map";
+//// .m- {
+//      margin: 10px;
+// }
+$letter-names-map: ('fw': 'font-weight');
+
+@for $i from 1 through 10 {
+
+    $incremental: ($i * 100);
+
+    @each $letter,
+    $name-map in $letter-names-map {
+        $property-value: "#{$incremental}";
+
+        $css-class: #{$letter}-#{$incremental};
+        $css-properties: (#{$name-map}: $property-value);
+        @include create-utility-property ($css-class, $css-properties);
+    }
+
+}
