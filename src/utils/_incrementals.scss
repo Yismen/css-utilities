@@ -1,22 +1,30 @@
+@use "sass:map";
 //// .m- {
 //      margin: 10px;
 // }
-$letter-names-map: ('w': 'width',
-    'h': 'height',
-    'vh': 'height',
-    'fw': 'font-weight',
+$letter-names-map: ('w': ('width': '%'),
+    'h': ('height': '%'),
+    'fw': ('font-weight': '%'),
+    'vh': ('height': 'vh'),
 );
 
 @for $i from 1 through 10 {
 
     $incremental: ($i * 10);
-    $property-value: "#{$incremental}%";
 
     @each $letter,
-    $name in $letter-names-map {
+    $name-map in $letter-names-map {
 
-        $css-class: #{$letter}-#{$incremental};
-        $css-properties: (#{$name}: $property-value);
-        @include create-utility-property ($css-class, $css-properties);
+        @each $key,
+        $value in $name-map {
+            // @debug $key;
+            // @debug $value;
+            $property-value: "#{$incremental}#{$value}";
+
+            $css-class: #{$letter}-#{$incremental};
+            $css-properties: (#{$key}: $property-value);
+            @include create-utility-property ($css-class, $css-properties);
+        }
+
     }
 }
