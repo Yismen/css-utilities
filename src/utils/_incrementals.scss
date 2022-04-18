@@ -4,7 +4,7 @@
 // }
 $letter-names-map: ('w': ('width': '%'),
     'h': ('height': '%'),
-    'fw': ('font-weight': '%'),
+    'fw': ('font-weight': '0'),
     'vh': ('height': 'vh'),
 );
 
@@ -17,8 +17,7 @@ $letter-names-map: ('w': ('width': '%'),
 
         @each $key,
         $value in $name-map {
-            // @debug $key;
-            // @debug $value;
+
             $property-value: "#{$incremental}#{$value}";
 
             $css-class: #{$letter}-#{$incremental};

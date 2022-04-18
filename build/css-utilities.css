@@ -33467,27 +33467,27 @@
   }
 }
 .fw-10 {
-  font-weight: 10%;
+  font-weight: 100;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-10 {
-    font-weight: 10%;
+    font-weight: 100;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-10 {
-    font-weight: 10%;
+    font-weight: 100;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-10 {
-    font-weight: 10%;
+    font-weight: 100;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-10 {
-    font-weight: 10%;
+    font-weight: 100;
   }
 }
 .vh-10 {
@@ -33563,27 +33563,27 @@
   }
 }
 .fw-20 {
-  font-weight: 20%;
+  font-weight: 200;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-20 {
-    font-weight: 20%;
+    font-weight: 200;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-20 {
-    font-weight: 20%;
+    font-weight: 200;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-20 {
-    font-weight: 20%;
+    font-weight: 200;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-20 {
-    font-weight: 20%;
+    font-weight: 200;
   }
 }
 .vh-20 {
@@ -33659,27 +33659,27 @@
   }
 }
 .fw-30 {
-  font-weight: 30%;
+  font-weight: 300;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-30 {
-    font-weight: 30%;
+    font-weight: 300;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-30 {
-    font-weight: 30%;
+    font-weight: 300;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-30 {
-    font-weight: 30%;
+    font-weight: 300;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-30 {
-    font-weight: 30%;
+    font-weight: 300;
   }
 }
 .vh-30 {
@@ -33755,27 +33755,27 @@
   }
 }
 .fw-40 {
-  font-weight: 40%;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-40 {
-    font-weight: 40%;
+    font-weight: 400;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-40 {
-    font-weight: 40%;
+    font-weight: 400;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-40 {
-    font-weight: 40%;
+    font-weight: 400;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-40 {
-    font-weight: 40%;
+    font-weight: 400;
   }
 }
 .vh-40 {
@@ -33851,27 +33851,27 @@
   }
 }
 .fw-50 {
-  font-weight: 50%;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-50 {
-    font-weight: 50%;
+    font-weight: 500;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-50 {
-    font-weight: 50%;
+    font-weight: 500;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-50 {
-    font-weight: 50%;
+    font-weight: 500;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-50 {
-    font-weight: 50%;
+    font-weight: 500;
   }
 }
 .vh-50 {
@@ -33947,27 +33947,27 @@
   }
 }
 .fw-60 {
-  font-weight: 60%;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-60 {
-    font-weight: 60%;
+    font-weight: 600;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-60 {
-    font-weight: 60%;
+    font-weight: 600;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-60 {
-    font-weight: 60%;
+    font-weight: 600;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-60 {
-    font-weight: 60%;
+    font-weight: 600;
   }
 }
 .vh-60 {
@@ -34043,27 +34043,27 @@
   }
 }
 .fw-70 {
-  font-weight: 70%;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-70 {
-    font-weight: 70%;
+    font-weight: 700;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-70 {
-    font-weight: 70%;
+    font-weight: 700;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-70 {
-    font-weight: 70%;
+    font-weight: 700;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-70 {
-    font-weight: 70%;
+    font-weight: 700;
   }
 }
 .vh-70 {
@@ -34139,27 +34139,27 @@
   }
 }
 .fw-80 {
-  font-weight: 80%;
+  font-weight: 800;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-80 {
-    font-weight: 80%;
+    font-weight: 800;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-80 {
-    font-weight: 80%;
+    font-weight: 800;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-80 {
-    font-weight: 80%;
+    font-weight: 800;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-80 {
-    font-weight: 80%;
+    font-weight: 800;
   }
 }
 .vh-80 {
@@ -34235,27 +34235,27 @@
   }
 }
 .fw-90 {
-  font-weight: 90%;
+  font-weight: 900;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-90 {
-    font-weight: 90%;
+    font-weight: 900;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-90 {
-    font-weight: 90%;
+    font-weight: 900;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-90 {
-    font-weight: 90%;
+    font-weight: 900;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-90 {
-    font-weight: 90%;
+    font-weight: 900;
   }
 }
 .vh-90 {
@@ -34331,27 +34331,27 @@
   }
 }
 .fw-100 {
-  font-weight: 100%;
+  font-weight: 1000;
 }
 
 @media (min-width: 768px) {
   .sm\:fw-100 {
-    font-weight: 100%;
+    font-weight: 1000;
   }
 }
 @media (min-width: 992px) {
   .md\:fw-100 {
-    font-weight: 100%;
+    font-weight: 1000;
   }
 }
 @media (min-width: 1200px) {
   .lg\:fw-100 {
-    font-weight: 100%;
+    font-weight: 1000;
   }
 }
 @media (min-width: 1400px) {
   .xl\:fw-100 {
-    font-weight: 100%;
+    font-weight: 1000;
   }
 }
 .vh-100 {
