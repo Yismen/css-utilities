@@ -4,10 +4,10 @@
 Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
 
 ### Installation
-- ```npm install git+https://github.com/Yismen/css-utilities.git --save-dev```
+- ```npm install git+https://github.com/Yismen/css-utilities.git -D```
 ### Usage
 - Imports:
-    - With a sass compiler: ```@import "~dainsys-css-utilities/build/css-utilities.min.css";```
+    - With a sass compiler: ```@import "~dainsys-css-utilities/build/css-utilities.css";```
     - Or with webpack from ```node_modules/dainsys-css-utilities/src/_utilities.scss```
 ### API:
 - Breakpoints
