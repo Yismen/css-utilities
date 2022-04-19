@@ -22,7 +22,7 @@
 
                 @each $property,
                 $value in $css-properties {
-                    #{$property}: #{$value};
+                    #{$property}: #{$value} !important;
                 }
             }
         }
