@@ -1,3 +1,4 @@
+@use "sass:list";
 // .m- {
 //      margin: 10px;
 // }
@@ -11,6 +12,10 @@ $directions-map: ('':'',
     't': '-top',
     'b': '-bottom',
 );
+
+$directions-list: (x:('left', 'right'),
+    y: ('top', 'bottom'));
+
 
 @for $i from 0 through 92 {
 
@@ -26,11 +31,13 @@ $directions-map: ('':'',
             @include create-utility-property ($css-class, $css-properties);
         }
 
-        $directions-list: ('x', 'y');
+        @each $direction,
+        $dir-list in $directions-list {
+            $first: nth($dir-list, 1);
+            $second: nth($dir-list, 2);
 
-        @each $direction in $directions-list {
             $css-class: #{$letter}#{$direction}-#{$i};
-            $css-properties: (#{$name}-left: $property-value, #{$name}-right: $property-value);
+            $css-properties: (#{$name}-#{$first}: $property-value, #{$name}-#{$second}: $property-value);
             @include create-utility-property ($css-class, $css-properties);
         }
     }
