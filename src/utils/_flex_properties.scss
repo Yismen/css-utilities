@@ -17,6 +17,27 @@ $flex-directions: ('column',
     @include create-utility-property ($css-class, $css-properties);
 }
 
+// flex justify 
+// .justify- {
+//     justify-content:baseline;
+//     justify-content:center;
+//     justify-content:flex-end;
+//     justify-content:flex-start;
+// }
+
+$flex-align-contents: ('center',
+    'flex-end',
+    'flex-start',
+    'space-around',
+    'space-between',
+    'space-evenly',
+);
+
+@each $flex-align-content in $flex-align-contents {
+    $css-class: justify-#{$flex-align-content};
+    $css-properties: ('justify-content': $flex-align-content);
+    @include create-utility-property ($css-class, $css-properties);
+}
 
 
 // flex align-items 
