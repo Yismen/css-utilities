@@ -34306,27 +34306,27 @@
     visibility: visible !important;
   }
 }
-.hidden {
+.invisible {
   visibility: hidden;
 }
 
 @media (min-width: 768px) {
-  .sm\:hidden {
+  .sm\:invisible {
     visibility: hidden !important;
   }
 }
 @media (min-width: 992px) {
-  .md\:hidden {
+  .md\:invisible {
     visibility: hidden !important;
   }
 }
 @media (min-width: 1200px) {
-  .lg\:hidden {
+  .lg\:invisible {
     visibility: hidden !important;
   }
 }
 @media (min-width: 1400px) {
-  .xl\:hidden {
+  .xl\:invisible {
     visibility: hidden !important;
   }
 }

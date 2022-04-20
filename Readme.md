@@ -100,3 +100,7 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `fw-30` : {font-weight: 30%;}
     - ...
     - `fw-100` : {font-weight: 100%;}
+- Visibility
+    - `visible` : {visibility: visible}
+    - `invisible` : {visibility: hidden}
+    - `collapse` : {visibility: collapse}
