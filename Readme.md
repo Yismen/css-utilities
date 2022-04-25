@@ -109,4 +109,4 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
       - `.letter-spacing-1` : {letter-spacing: 0.25rem;}
       - `.letter-spacing-2` : {letter-spacing: 0.5rem;}
       - ...
-      - `.letter-spacing-16` : {letter-spacing: 4rem;
+      - `.letter-spacing-32` : {letter-spacing: 8rem;
