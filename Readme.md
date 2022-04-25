@@ -39,43 +39,43 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
         -`.m-1` : {margin: 0.25rem;}
         -`.m-2` : {margin: 0.5rem;}
         -...
-        -`.m-16` : {margin: 4rem;}
+        -`.m-92` : {margin: 23rem;}
     - Margin Left
         - `.ml-0` : {margin-left: 0rem;}
         - `.ml-1` : {margin-left: 0.25rem;}
         - `.ml-2` : {margin-left: 0.5rem;}
         -  ...
-        -  `.mr-16` : {margin-right: 4rem;
+        -  `.ml-92` : {margin-right: 23rem;
     - argin Right
         - mr-0` : {margin-right: 0rem;}
         -  `.mr-1` : {margin-right: 0.25rem;}
         -  `.mr-2` : {margin-right: 0.5rem;}
         -  ...
-        -  `.mr-16` : {margin-right: 4rem;}
+        -  `.mr-92` : {margin-right: 23rem;}
     - argin Top
         -  `.mt-0` : {margin-top: 0rem;}
         -  `.mt-1` : {margin-top: 0.25rem;}
         -  `.mt-2` : {margin-top: 0.5rem;}
         -  ...
-        -  `.mt-16` : {margin-top: 4rem;}
+        -  `.mt-92` : {margin-top: 23rem;}
     - Margin Bottom
         -  `.mb-0` : {margin-bottom: 0rem;}
         -  `.mb-1` : {margin-bottom: 0.25rem;}
         -  `.mb-2` : {margin-bottom: 0.5rem;}
         -  ...
-        - `.mb-16` : {margin-bottom: 4rem;}
+        - `.mb-92` : {margin-bottom: 23rem;}
     - Margin Horizontal
         -  `.mx-0` : {margin-left: 0rem; margin-right: 0rem;}
         -  `.mx-1` : {margin-left: 0.25rem; margin-right: 0.25rem;}
         -  `.mx-2` : {margin-left: 0.5rem; margin-right: 0.5rem;}
         -  ...
-        -  `.mx-16` : {margin-left: 4rem; margin-right: 4rem;}
+        -  `.mx-92` : {margin-left: 23rem; margin-right: 23rem;}
     - Margin Vertical
         -  `.my-0` : {margin-top: 0rem; margin-bottom: 0rem;}
         -  `.my-1` : {margin-top: 0.25rem; margin-bottom: 0.25rem;}
         -  `.my-2` : {margin-top: 0.5rem; margin-bottom: 0.5rem;}
         -  ...
-        -  `.my-16` : {margin-top: 4rem; margin-bottom: 4rem;}
+        -  `.my-92` : {margin-top: 23rem; margin-bottom: 23rem;}
 - Paddings
     - All margins, but starting with `p`
 - Widths
@@ -104,3 +104,9 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `visible` : {visibility: visible}
     - `invisible` : {visibility: hidden}
     - `collapse` : {visibility: collapse}
+  - Letter Spacing
+      - `.letter-spacing-0` : {letter-spacing: 0rem;}
+      - `.letter-spacing-1` : {letter-spacing: 0.25rem;}
+      - `.letter-spacing-2` : {letter-spacing: 0.5rem;}
+      - ...
+      - `.letter-spacing-16` : {letter-spacing: 4rem;

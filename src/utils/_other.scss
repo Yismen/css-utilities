@@ -1,0 +1,9 @@
+@for $i from 0 through 16 {
+
+    $property-value: #{($i * 0.25)}#{$size_unit};
+
+    $css-class: letter-spacing-#{$i};
+    $css-properties: ('letter-spacing': $property-value);
+    @include create-utility-property ($css-class, $css-properties);
+
+}
