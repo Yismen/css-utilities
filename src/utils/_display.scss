@@ -12,3 +12,18 @@ $display_list: ('flex',
 
     @include create-utility-property ($css-class, $css-properties);
 }
+
+$display_list: ('flex',
+    'block',
+    'content',
+    'table',
+    'grid',
+    'none',
+);
+
+@each $display in $display_list {
+    $css-class: d-#{$display};
+    $css-properties: ("display": $display);
+
+    @include create-utility-property ($css-class, $css-properties);
+}

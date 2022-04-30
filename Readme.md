@@ -22,6 +22,12 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `.content` : {display: content;}
     - `.table` : {display: table;}
     - `.grid` : {display: grid;}
+    - `.d-flex` : {display: flex;}
+    - `.d-block` : {display: block;}
+    - `.d-content` : {display: content;}
+    - `.d-table` : {display: table;}
+    - `.d-grid` : {display: grid;}
+    - `.d-none` : {display: none;}
 - Flex properties
     - Flex Directions
         - . `.flex-direction-column` : {flex-direction: column;}
