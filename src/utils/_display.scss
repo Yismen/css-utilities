@@ -4,6 +4,7 @@ $display_list: ('flex',
     'content',
     'table',
     'grid',
+    'none',
 );
 
 @each $display in $display_list {

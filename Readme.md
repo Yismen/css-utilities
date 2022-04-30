@@ -22,6 +22,7 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `.content` : {display: content;}
     - `.table` : {display: table;}
     - `.grid` : {display: grid;}
+    - `.none` : {display: none;}
     - `.d-flex` : {display: flex;}
     - `.d-block` : {display: block;}
     - `.d-content` : {display: content;}
