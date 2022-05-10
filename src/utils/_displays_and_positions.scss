@@ -1,0 +1,42 @@
+// display
+$displays_list: ('flex',
+    'block',
+    'content',
+    'table',
+    'grid',
+    'none',
+);
+
+@each $display in $displays_list {
+    $css-class: $display;
+    $css-properties: ("display": $display);
+
+    @include create-utility-property ($css-class, $css-properties);
+
+    // Prefix with .d-
+    $css-class: d-#{$display};
+    // $css-properties: ("display": $display);
+
+    @include create-utility-property ($css-class, $css-properties);
+}
+
+// position
+$positions_list: ('absolute',
+    'relative',
+    'fixed',
+    'static',
+    'sticky',
+);
+
+@each $position in $positions_list {
+    $css-class: $position;
+    $css-properties: ("position": $position);
+
+    @include create-utility-property ($css-class, $css-properties);
+
+    // Prefix with .pos-
+    $css-class: pos-#{$position};
+    // $css-properties: ("position": $position);
+
+    @include create-utility-property ($css-class, $css-properties);
+}

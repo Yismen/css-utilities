@@ -29,6 +29,17 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `.d-table` : {display: table;}
     - `.d-grid` : {display: grid;}
     - `.d-none` : {display: none;}
+- Positions classes
+    - `.absolute` : {display: absolute;}
+    - `.relative` : {display: relative;}
+    - `.fixed` : {display: fixed;}
+    - `.static` : {display: static;}
+    - `.sticky` : {display: sticky;}
+    - `.pos-absolute` : {display: flex;}
+    - `.pos-relative` : {display: relative;}
+    - `.pos-fixed` : {display: fixed;}
+    - `.pos-static` : {display: static;}
+    - `.pos-sticky` : {display: sticky;}
 - Flex properties
     - Flex Directions
         - . `.flex-direction-column` : {flex-direction: column;}
