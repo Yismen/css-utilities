@@ -152,3 +152,9 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `.text-right` : {text-align: right;}
     - `.text-start` : {text-align: start;}
     - `.text-end` : {text-align: end;}
+- Font Size
+    - `.fs-0` : {font-size: 0rem;}
+    - `.fs-1` : {font-size: 0.25rem;}
+    - `.fs-2` : {font-size: 0.5rem;}
+    - ...
+    - `.fs-120` : {font-size: 8rem;

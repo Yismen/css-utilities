@@ -22,4 +22,9 @@
     $css-properties: ('row-gap': $property-value);
     @include create-utility-property ($css-class, $css-properties);
 
+    // font-size
+    $css-class: fs-#{$i};
+    $css-properties: ('font-size': $property-value);
+    @include create-utility-property ($css-class, $css-properties);
+
 }
