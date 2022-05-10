@@ -122,9 +122,27 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `visible` : {visibility: visible}
     - `invisible` : {visibility: hidden}
     - `collapse` : {visibility: collapse}
-  - Letter Spacing
-      - `.letter-spacing-0` : {letter-spacing: 0rem;}
-      - `.letter-spacing-1` : {letter-spacing: 0.25rem;}
-      - `.letter-spacing-2` : {letter-spacing: 0.5rem;}
-      - ...
-      - `.letter-spacing-32` : {letter-spacing: 8rem;
+- Letter Spacing
+    - `.letter-spacing-0` : {letter-spacing: 0rem;}
+    - `.letter-spacing-1` : {letter-spacing: 0.25rem;}
+    - `.letter-spacing-2` : {letter-spacing: 0.5rem;}
+    - ...
+    - `.letter-spacing-120` : {letter-spacing: 8rem;
+- Gap Spacing
+    - `.gap-0` : {gap: 0rem;}
+    - `.gap-1` : {gap: 0.25rem;}
+    - `.gap-2` : {gap: 0.5rem;}
+    - ...
+    - `.gap-120` : {gap: 8rem;
+- Gap Spacing Column
+    - `.gap-column-0` : {column-gap: 0rem;}
+    - `.gap-column-1` : {column-gap: 0.25rem;}
+    - `.gap-column-2` : {column-gap: 0.5rem;}
+    - ...
+    - `.gap-column-120` : {column-gap: 8rem;
+- Gap Spacing Row
+    - `.gap-row-0` : {row-gap: 0rem;}
+    - `.gap-row-1` : {row-gap: 0.25rem;}
+    - `.gap-row-2` : {row-gap: 0.5rem;}
+    - ...
+    - `.gap-row-120` : {row-gap: 8rem;

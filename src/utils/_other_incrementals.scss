@@ -1,0 +1,25 @@
+@for $i from 0 through 120 {
+
+    $property-value: #{($i * 0.25)}#{$size_unit};
+
+    // Letter Spacing
+    $css-class: letter-spacing-#{$i};
+    $css-properties: ('letter-spacing': $property-value);
+    @include create-utility-property ($css-class, $css-properties);
+
+    // Gap
+    $css-class: gap-#{$i};
+    $css-properties: ('gap': $property-value);
+    @include create-utility-property ($css-class, $css-properties);
+
+    // column-gap
+    $css-class: gap-column-#{$i};
+    $css-properties: ('column-gap': $property-value);
+    @include create-utility-property ($css-class, $css-properties);
+
+    // row-gap
+    $css-class: gap-row-#{$i};
+    $css-properties: ('row-gap': $property-value);
+    @include create-utility-property ($css-class, $css-properties);
+
+}
