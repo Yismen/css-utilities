@@ -40,3 +40,18 @@ $positions_list: ('absolute',
 
     @include create-utility-property ($css-class, $css-properties);
 }
+
+// text
+$texts_list: ('center',
+    'left',
+    'right',
+    'start',
+    'end',
+);
+
+@each $text in $texts_list {
+    $css-class: $text;
+    $css-properties: ("text-align": $text);
+
+    @include create-utility-property ($css-class, $css-properties);
+}

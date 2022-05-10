@@ -146,3 +146,9 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
     - `.gap-row-2` : {row-gap: 0.5rem;}
     - ...
     - `.gap-row-120` : {row-gap: 8rem;
+- Text Properties
+    - `.text-center` : {text-align: center;}
+    - `.text-left` : {text-align: left;}
+    - `.text-right` : {text-align: right;}
+    - `.text-start` : {text-align: start;}
+    - `.text-end` : {text-align: end;}
