@@ -47,10 +47,19 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
         - . `.flex-direction-column-reverse` : {flex-direction: column-reverse;}
         - . `.flex-direction-row-reverse` : {flex-direction: row-reverse;}
     - Align Items
-        - . `.align-items-baseline` : {align-items: baseline;}
-        - . `.align-items-center` : {align-items: center;}
-        - . `.align-items-flex-end` : {align-items: flex-end;}
-        - . `.align-items-flex-start` : {align-items: flex-start;}
+        - . `.align-baseline` : {align-items: baseline;}
+        - . `.align-center` : {align-items: center;}
+        - . `.align-flex-end` : {align-items: flex-end;}
+        - . `.align-flex-start` : {align-items: flex-start;}
+        - . `.align-inherit` : {align-items: inherit;}
+        - . `.align-unset` : {align-items: unset;}
+        - 
+        - . `.items-baseline` : {align-items: baseline;}
+        - . `.items-center` : {align-items: center;}
+        - . `.items-flex-end` : {align-items: flex-end;}
+        - . `.items-flex-start` : {align-items: flex-start;}
+        - . `.items-inherit`: {align-items: inherit;}
+        - . `.items-unsetit`: {align-items: unset;}
 - Margins
     - Maring All Arounds
         -`.m-0` : {margin: 0rem;}
