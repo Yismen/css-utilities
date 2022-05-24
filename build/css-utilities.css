@@ -33644,123 +33644,123 @@
     position: sticky !important;
   }
 }
-.center {
+.text-center {
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .sm\:center {
+  .sm\:text-center {
     text-align: center !important;
   }
 }
 @media (min-width: 992px) {
-  .md\:center {
+  .md\:text-center {
     text-align: center !important;
   }
 }
 @media (min-width: 1200px) {
-  .lg\:center {
+  .lg\:text-center {
     text-align: center !important;
   }
 }
 @media (min-width: 1400px) {
-  .xl\:center {
+  .xl\:text-center {
     text-align: center !important;
   }
 }
-.left {
+.text-left {
   text-align: left;
 }
 
 @media (min-width: 768px) {
-  .sm\:left {
+  .sm\:text-left {
     text-align: left !important;
   }
 }
 @media (min-width: 992px) {
-  .md\:left {
+  .md\:text-left {
     text-align: left !important;
   }
 }
 @media (min-width: 1200px) {
-  .lg\:left {
+  .lg\:text-left {
     text-align: left !important;
   }
 }
 @media (min-width: 1400px) {
-  .xl\:left {
+  .xl\:text-left {
     text-align: left !important;
   }
 }
-.right {
+.text-right {
   text-align: right;
 }
 
 @media (min-width: 768px) {
-  .sm\:right {
+  .sm\:text-right {
     text-align: right !important;
   }
 }
 @media (min-width: 992px) {
-  .md\:right {
+  .md\:text-right {
     text-align: right !important;
   }
 }
 @media (min-width: 1200px) {
-  .lg\:right {
+  .lg\:text-right {
     text-align: right !important;
   }
 }
 @media (min-width: 1400px) {
-  .xl\:right {
+  .xl\:text-right {
     text-align: right !important;
   }
 }
-.start {
+.text-start {
   text-align: start;
 }
 
 @media (min-width: 768px) {
-  .sm\:start {
+  .sm\:text-start {
     text-align: start !important;
   }
 }
 @media (min-width: 992px) {
-  .md\:start {
+  .md\:text-start {
     text-align: start !important;
   }
 }
 @media (min-width: 1200px) {
-  .lg\:start {
+  .lg\:text-start {
     text-align: start !important;
   }
 }
 @media (min-width: 1400px) {
-  .xl\:start {
+  .xl\:text-start {
     text-align: start !important;
   }
 }
-.end {
+.text-end {
   text-align: end;
 }
 
 @media (min-width: 768px) {
-  .sm\:end {
+  .sm\:text-end {
     text-align: end !important;
   }
 }
 @media (min-width: 992px) {
-  .md\:end {
+  .md\:text-end {
     text-align: end !important;
   }
 }
 @media (min-width: 1200px) {
-  .lg\:end {
+  .lg\:text-end {
     text-align: end !important;
   }
 }
 @media (min-width: 1400px) {
-  .xl\:end {
+  .xl\:text-end {
     text-align: end !important;
   }
 }

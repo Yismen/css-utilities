@@ -1,5 +1,6 @@
 // display
-$displays_list: ('flex',
+$displays_list: (
+    'flex',
     'block',
     'content',
     'table',
@@ -21,7 +22,8 @@ $displays_list: ('flex',
 }
 
 // position
-$positions_list: ('absolute',
+$positions_list: (
+    'absolute',
     'relative',
     'fixed',
     'static',
@@ -42,7 +44,8 @@ $positions_list: ('absolute',
 }
 
 // text
-$texts_list: ('center',
+$texts_list: (
+    'center',
     'left',
     'right',
     'start',
@@ -50,7 +53,7 @@ $texts_list: ('center',
 );
 
 @each $text in $texts_list {
-    $css-class: $text;
+    $css-class: text-#{$text};
     $css-properties: ("text-align": $text);
 
     @include create-utility-property ($css-class, $css-properties);
