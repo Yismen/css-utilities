@@ -5,7 +5,8 @@
 //     flex-direction:column-reverse;
 //     flex-direction:row-reverse;
 // }
-$flex-directions: ('column',
+$flex-directions: (
+    'column',
     'row',
     'column-reverse',
     'row-reverse',
@@ -25,7 +26,8 @@ $flex-directions: ('column',
 //     justify-content:flex-start;
 // }
 
-$flex-align-contents: ('center',
+$flex-align-contents: (
+    'center',
     'flex-end',
     'flex-start',
     'space-around',
@@ -48,13 +50,15 @@ $flex-align-contents: ('center',
 //     align-items:flex-start;
 // }
 
-$flex-align-contents: ('baseline',
+$flex-align-contents: (
+    'baseline',
     'center',
     'flex-end',
     'flex-start',
     'initial',
     'inherit',
     'unset',
+    'auto',
 );
 
 @each $flex-align-content in $flex-align-contents {
@@ -65,5 +69,10 @@ $flex-align-contents: ('baseline',
 
     $css-class: items-#{$flex-align-content};
     $css-properties: ('align-items': $flex-align-content);
+    @include create-utility-property ($css-class, $css-properties);
+
+
+    $css-class: self-#{$flex-align-content};
+    $css-properties: ('align-self': $flex-align-content);
     @include create-utility-property ($css-class, $css-properties);
 }

@@ -60,6 +60,13 @@ Taildwind CSS like utilities for *Bootstrap 3* and any other CSS project;
         - . `.items-flex-start` : {align-items: flex-start;}
         - . `.items-inherit`: {align-items: inherit;}
         - . `.items-unsetit`: {align-items: unset;}
+    - Align Self
+        - . `.self-baseline` : {align-items: baseline;}
+        - . `.self-center` : {align-items: center;}
+        - . `.self-flex-end` : {align-items: flex-end;}
+        - . `.self-flex-start` : {align-items: flex-start;}
+        - . `.self-inherit`: {align-items: inherit;}
+        - . `.self-unsetit`: {align-items: unset;}
 - Margins
     - Maring All Arounds
         -`.m-0` : {margin: 0rem;}

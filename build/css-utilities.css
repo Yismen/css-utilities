@@ -34052,6 +34052,30 @@
     align-items: baseline !important;
   }
 }
+.self-baseline {
+  align-self: baseline;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-baseline {
+    align-self: baseline !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-baseline {
+    align-self: baseline !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-baseline {
+    align-self: baseline !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-baseline {
+    align-self: baseline !important;
+  }
+}
 .align-center {
   align-items: center;
 }
@@ -34098,6 +34122,30 @@
 @media (min-width: 1400px) {
   .xl\:items-center {
     align-items: center !important;
+  }
+}
+.self-center {
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-center {
+    align-self: center !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-center {
+    align-self: center !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-center {
+    align-self: center !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-center {
+    align-self: center !important;
   }
 }
 .align-flex-end {
@@ -34148,6 +34196,30 @@
     align-items: flex-end !important;
   }
 }
+.self-flex-end {
+  align-self: flex-end;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-flex-end {
+    align-self: flex-end !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-flex-end {
+    align-self: flex-end !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-flex-end {
+    align-self: flex-end !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-flex-end {
+    align-self: flex-end !important;
+  }
+}
 .align-flex-start {
   align-items: flex-start;
 }
@@ -34194,6 +34266,30 @@
 @media (min-width: 1400px) {
   .xl\:items-flex-start {
     align-items: flex-start !important;
+  }
+}
+.self-flex-start {
+  align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-flex-start {
+    align-self: flex-start !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-flex-start {
+    align-self: flex-start !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-flex-start {
+    align-self: flex-start !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-flex-start {
+    align-self: flex-start !important;
   }
 }
 .align-initial {
@@ -34244,6 +34340,30 @@
     align-items: initial !important;
   }
 }
+.self-initial {
+  align-self: initial;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-initial {
+    align-self: initial !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-initial {
+    align-self: initial !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-initial {
+    align-self: initial !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-initial {
+    align-self: initial !important;
+  }
+}
 .align-inherit {
   align-items: inherit;
 }
@@ -34292,6 +34412,30 @@
     align-items: inherit !important;
   }
 }
+.self-inherit {
+  align-self: inherit;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-inherit {
+    align-self: inherit !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-inherit {
+    align-self: inherit !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-inherit {
+    align-self: inherit !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-inherit {
+    align-self: inherit !important;
+  }
+}
 .align-unset {
   align-items: unset;
 }
@@ -34338,6 +34482,102 @@
 @media (min-width: 1400px) {
   .xl\:items-unset {
     align-items: unset !important;
+  }
+}
+.self-unset {
+  align-self: unset;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-unset {
+    align-self: unset !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-unset {
+    align-self: unset !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-unset {
+    align-self: unset !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-unset {
+    align-self: unset !important;
+  }
+}
+.align-auto {
+  align-items: auto;
+}
+
+@media (min-width: 768px) {
+  .sm\:align-auto {
+    align-items: auto !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:align-auto {
+    align-items: auto !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:align-auto {
+    align-items: auto !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:align-auto {
+    align-items: auto !important;
+  }
+}
+.items-auto {
+  align-items: auto;
+}
+
+@media (min-width: 768px) {
+  .sm\:items-auto {
+    align-items: auto !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:items-auto {
+    align-items: auto !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:items-auto {
+    align-items: auto !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:items-auto {
+    align-items: auto !important;
+  }
+}
+.self-auto {
+  align-self: auto;
+}
+
+@media (min-width: 768px) {
+  .sm\:self-auto {
+    align-self: auto !important;
+  }
+}
+@media (min-width: 992px) {
+  .md\:self-auto {
+    align-self: auto !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:self-auto {
+    align-self: auto !important;
+  }
+}
+@media (min-width: 1400px) {
+  .xl\:self-auto {
+    align-self: auto !important;
   }
 }
 .w-10 {
